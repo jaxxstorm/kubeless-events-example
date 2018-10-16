@@ -449,7 +449,7 @@ spec:
         - name: KUBELESS_CONFIG
           value: kubeless-config
         - name: NATS_URL
-          value: nats-cluster.nats-io.svc.cluster.local:4222
+          value: nats://nats-cluster.nats-io.svc.cluster.local:4222
         image: bitnami/nats-trigger-controller:v1.0.0-alpha.9
         imagePullPolicy: IfNotPresent
         name: nats-trigger-controller
